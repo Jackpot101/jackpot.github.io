@@ -98,7 +98,7 @@
 
 .videos{
     display: inline-block;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
 }
 .ray-img{
@@ -123,9 +123,6 @@
         white-space: nowrap;
         width: 80%;
     }  
-    .videos{
-        height: auto;
-    }
     .ray{
         width: 50%;
     }
