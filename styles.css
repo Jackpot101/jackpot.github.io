@@ -15,10 +15,11 @@
     background-color: aqua;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 100vh;
 }
 
 .navi img{
-    width: 80%;
+    width: 500px;
 }
 
 .nav{
@@ -45,6 +46,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
 }
 
 .about{
@@ -91,11 +93,12 @@
 .scroll-videos{
     overflow: auto;
     white-space: nowrap;
-    width: 80%;
+    width: 700px;
 }
 
 .videos{
     display: inline-block;
+    height: 400px;
     width: 100%;
 }
 .ray-img{
@@ -103,9 +106,29 @@
 }
 
 .ray{
-    width: 50%;
+    width: 200px;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+    .navi{
+        height: auto;
+    }
+    .navi img{
+        width: 80%;
+    }
+    .sections{
+        height: auto;
+    }
+    .scroll-videos{
+        overflow: auto;
+        white-space: nowrap;
+        width: 80%;
+    }  
+    .videos{
+        height: auto;
+    }
+    .ray{
+        width: 50%;
+    }
     .socials{
         flex-direction: column;
         justify-content: center;
@@ -117,7 +140,7 @@
 }
 @media (max-width: 400px) {
     .navi ul li a{
-        font-size: 23px;
+        font-size: 20px;
     }
     .brand{
         font-size: 10px;
