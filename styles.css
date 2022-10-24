@@ -91,7 +91,7 @@
 .scroll-videos{
     overflow: auto;
     white-space: nowrap;
-    width: 50%;
+    width: 80%;
 }
 
 .videos{
@@ -112,8 +112,14 @@
         gap: 20px;
     }
     .navi ul li a{
-        color: red;
-        text-decoration: none;
         font-size: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .navi ul li a{
+        font-size: 23px;
+    }
+    .brand{
+        font-size: 10px;
     }
 }
