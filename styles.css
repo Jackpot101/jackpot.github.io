@@ -93,13 +93,14 @@
 .scroll-videos{
     overflow: auto;
     white-space: nowrap;
-    width: 700px;
+    width: 80%;
+    max-width: 700px;
 }
 
 .videos{
     display: inline-block;
-    min-height: 400px;
     width: 100%;
+    aspect-ratio: 16/9;
 }
 .ray-img{
     text-align: center;
